@@ -32,3 +32,6 @@ BOARD_CUSTOM_GRAPHICS:= ../../../device/lge/lgl55c/recovery/graphics.c
 TARGET_RECOVERY_INITRC := device/lge/lgl55c/recovery/recovery.rc
 BOARD_UMS_LUNFILE := "/sys/devices/platform/usb_mass_storage/lun0/file"
 BOARD_HAS_NO_SELECT_BUTTON := true
+
+# TWRP
+TW_NO_REBOOT_BOOTLOADER := true
